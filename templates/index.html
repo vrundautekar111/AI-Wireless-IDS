@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        AI Wireless Intrusion Detection System
+    </title>
+
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>
+            🛡️ AI-Based Wireless IDS
+        </h1>
+
+        <p>
+            Wireless Network Intrusion Detection System
+        </p>
+
+        <p class="subtitle">
+            Machine Learning Powered Security Analysis
+        </p>
+
+    </header>
+
+
+
+    <!-- MAIN GRID -->
+
+    <div class="grid">
+
+
+        <!-- INPUT CARD -->
+
+        <section class="card">
+
+
+            <h2>
+                📡 Wireless Traffic Information
+            </h2>
+
+
+            <label>
+                Packet Rate
+            </label>
+
+            <input
+                id="packet_rate"
+                type="number"
+                value="90"
+                step="0.1"
+            >
+
+
+            <label>
+                Deauthentication Rate
+            </label>
+
+            <input
+                id="deauth_rate"
+                type="number"
+                value="1"
+                step="0.1"
+            >
+
+
+            <label>
+                Failed Authentication Attempts
+            </label>
+
+            <input
+                id="failed_auth_attempts"
+                type="number"
+                value="2"
+                step="0.1"
+            >
+
+
+            <label>
+                Unique Source Count
+            </label>
+
+            <input
+                id="unique_source_count"
+                type="number"
+                value="4"
+                step="0.1"
+            >
+
+
+            <label>
+                Average Signal Strength (dBm)
+            </label>
+
+            <input
+                id="avg_signal_dbm"
+                type="number"
+                value="-48"
+                step="0.1"
+            >
+
+
+            <label>
+                Connection Duration (seconds)
+            </label>
+
+            <input
+                id="connection_duration_sec"
+                type="number"
+                value="120"
+                step="0.1"
+            >
+
+
+            <label>
+                Retry Rate
+            </label>
+
+            <input
+                id="retry_rate"
+                type="number"
+                value="4"
+                step="0.1"
+            >
+
+
+            <button
+                onclick="predict()"
+            >
+                🔍 Analyze Traffic
+            </button>
+
+
+        </section>
+
+
+
+        <!-- RESULT CARD -->
+
+        <section class="card result-card">
+
+
+            <h2>
+                🔐 Security Result
+            </h2>
+
+
+            <div
+                id="result"
+                class="result neutral"
+            >
+
+                Enter wireless traffic information
+                and click Analyze Traffic.
+
+            </div>
+
+
+            <div class="probability">
+
+
+                <div class="probability-box">
+
+                    <span>
+                        Normal Traffic
+                    </span>
+
+                    <strong id="normal">
+                        --
+                    </strong>
+
+                </div>
+
+
+                <div class="probability-box">
+
+                    <span>
+                        Intrusion
+                    </span>
+
+                    <strong id="attack">
+                        --
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+
+
+    <!-- INFORMATION -->
+
+    <section class="card info">
+
+
+        <h2>
+            🤖 AI Detection Features
+        </h2>
+
+
+        <ul>
+
+            <li>
+                Packet Rate
+            </li>
+
+            <li>
+                Deauthentication Rate
+            </li>
+
+            <li>
+                Failed Authentication Attempts
+            </li>
+
+            <li>
+                Unique Source Count
+            </li>
+
+            <li>
+                Average Signal Strength
+            </li>
+
+            <li>
+                Connection Duration
+            </li>
+
+            <li>
+                Retry Rate
+            </li>
+
+        </ul>
+
+
+        <div class="note">
+
+            <strong>Educational Project:</strong>
+
+            This implementation uses synthetic wireless
+            traffic statistics. It does not capture packets,
+            exploit networks, or generate attacks.
+
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+<script
+    src="{{ url_for('static', filename='script.js') }}"
+></script>
+
+
+</body>
+
+</html>
