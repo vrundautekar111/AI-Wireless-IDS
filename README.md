@@ -46,3 +46,18 @@ Flask
 HTML5
 CSS3
 JavaScript
+Future Enhancements
+
+Future versions can include:
+
+Real-time authorized wireless network telemetry
+Real-time intrusion monitoring
+Attack-type classification
+Database logging
+Security alert notifications
+Interactive traffic graphs
+Network-device monitoring
+Model retraining
+Advanced deep-learning models
+Authentication and administrator dashboard
+Deployment using Docker and cloud infrastructure
