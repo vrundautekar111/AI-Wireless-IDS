@@ -11,6 +11,7 @@ The project includes a Flask-based web dashboard where users can enter network t
 OBJECTIVES
 Detect potentially suspicious wireless network traffic using machine learning.
 Build an AI-based classification model for wireless intrusion detection.
+
 Analyze important network traffic characteristics.
 Provide intrusion and normal-traffic probability scores.
 Develop a simple web-based security monitoring interface.
