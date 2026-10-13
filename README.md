@@ -14,9 +14,9 @@ Build an AI-based classification model for wireless intrusion detection.
 
 Analyze important network traffic characteristics.
 Provide intrusion and normal-traffic probability scores.
-Develop a simple web-based security monitoring interface.
+Develop a simple web-based security monitoring interface. 
 Demonstrate the use of machine learning in cybersecurity.
-
+ 
 MACHINE LEARNING
 
 The project uses the Random Forest Classifier because it can handle multiple numerical features and provides reliable classification performance.
