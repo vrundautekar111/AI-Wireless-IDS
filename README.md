@@ -4,7 +4,7 @@ PROJECT OVERVIEW
 
 The AI-Based Wireless Network Intrusion Detection System (WIDS) is a machine-learning-based cybersecurity application designed to identify potentially suspicious activity in wireless network traffic.
 
-The system analyzes wireless traffic characteristics such as packet rate, deauthentication rate, failed authentication attempts, unique source count, signal strength, connection duration, and retry rate. A Random Forest classification algorithm is used to classify traffic as either Normal Traffic or Potential Intrusion.
+The system analyzes wireless traffic characteristics such as packet rate, deauthentication rate, failed authentication attempts, unique source count, signal strength, connection duration, and retry rate. A Random Forest classification algorithm is used to classify traffic as either Normal Traffic or Potential Intrusion. 
 
 The project includes a Flask-based web dashboard where users can enter network traffic parameters and receive an AI-generated security classification along with normal and intrusion probabilities.
 
