@@ -1,6 +1,6 @@
 AI-Based Wireless Network Intrusion Detection System
 
-PROJECT OVERVIEW 
+PROJECT OVERVIEW
    
 The AI-Based Wireless Network Intrusion Detection System (WIDS) is a machine-learning-based cybersecurity application designed to identify potentially suspicious activity in wireless network traffic.
 
