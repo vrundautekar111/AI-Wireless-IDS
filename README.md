@@ -8,7 +8,7 @@ The system analyzes wireless traffic characteristics such as packet rate, deauth
 
 The project includes a Flask-based web dashboard where users can enter network traffic parameters and receive an AI-generated security classification along with normal and intrusion probabilities.
 
-OBJECTIVES
+OBJECTIVES 
 Detect potentially suspicious wireless network traffic using machine learning. 
 Build an AI-based classification model for wireless intrusion detection. 
 
